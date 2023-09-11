@@ -1,0 +1,179 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:wght@300&display=swap');
+
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; 
+}
+
+
+.contenido {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para el contenido */
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+
+}
+.h2{
+    background-color: rgb(242, 206, 77);
+
+}
+
+
+
+body {
+   background-color: rgb(242, 206, 77);
+   min-height: 100vh;
+   overflow-x: hidden
+}
+
+.navbar {
+    background-color: rgb(24, 27, 35);
+    color: #110a0a;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: rgb(215, 153, 153);
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+.navbar ul li:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    padding: 10px;
+}
+
+.submenu li a {
+    color: #1a0303;
+    text-decoration: none;
+}
+
+.submenu li:hover {
+    background-color: #1f0f0f;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+
+.video-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.video {
+    width: 300px;
+    margin: 20px;
+    background-color: rgba(63, 24, 238, 0.535);
+    border: 1px solid #2f0505;
+    padding: 10px;
+}
+
+.video img {
+    max-width: 100%;
+}
+
+.video h2 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.video p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+.registro-container {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+   
+    font-family: system-ui;
+    font-size: 3rem;
+    text-align: center;
+    -webtkit-text-fill-color:
+transparent;
+  -webkit-text-fill-color: rgb(28, 19, 7);
+  
+        
+}
+
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 3rem
+    
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

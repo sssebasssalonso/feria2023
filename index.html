@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="whidth=devide-width, initial-scale=1.0">
+    <title>CAZA TALENTOS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay loop muted>
+        <source src="chacarita.mp4.mp4" type="video/mp4">
+        
+    </video>
+  
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a>
+                    <ul class="submenu">
+                        <li><a href="/">Home</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contacto</a>
+                    <ul class="submenu">
+                        <li><a href="#">(502)5950-7312</a></li>
+                            <li><a>
+                        </a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Redes</a>
+                    <ul class="submenu">
+                        <li><a href="https://www.instagram.com/chacaritajr_31/?hl=es-la">Instagram Oficial chacaritajr_31</a></li>
+                        <li><a href="#"></a></li>
+                </li>
+            </ul>
+        </nav>
+    <div class="video-container">
+        <div class="video">
+            <a href="https://www.youtube.com/watch?v=chDmwW8Wp3U" target="_blank">
+                <img src="tiro.png" alt="Miniatura del Video 1">
+            </a>
+            <h2>Tiros como Ronaldo Nazario</h2>
+            <p>Aprende a realizar un tiro básico al ángulo con la precisión de un arquitecto</p>
+        </div>
+        <div class="video">
+            <a href="https://www.youtube.com/watch?v=ZLPPxJKjPYg" target="_blank">
+                <img src="drible.png" alt="Miniatura del Video 2">
+            </a>
+            <h2>¿No sabes cómo driblar?</h2>
+            <p>Esta es una guía básica de cosas que debes saber, como tener velocidad de conducción, aprender a cubrir el balón, etc.</p>
+        </div>
+        <div class="video">
+            <a href="https://www.youtube.com/watch?v=QQAaZTcfbF0" target="_blank">
+                <img src="caño.png" alt="Miniatura del Video 3">
+            </a>
+            <h2>Caños</h2>
+            <p>Aprende de su importacia y su utilizabilidad en un partido para poder repartir el cheese</p>
+        </div>
+        <div class="video">
+            <img src="copa.jpeg" alt="Miniatura del Video 3">
+            </a>
+            <h2>Chacarita_jr</h2>
+            <p>Posee el trofeo de actual campeón en la copa universal la cual se da a jugadores de tercera divición de la categoría juvenil</p>
+        </div>
+    </div>
+    <h1>¡Cuando domines estos temas
+        <br>
+        Demuéstranos de que eres capaz!
+    </h1>
+    <form id="video" enctype="multipart/form-data">
+        <label for="archivo">Selecciona un archivo:</label>
+        <input type="file" id="archivo" name="archivo" accept=".mp4">
+        <br>
+        <input type="button" value="Subir Video" onclick="subirArchivo()">
+    </form>
+    <div id="mensaje"></div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
