@@ -111,7 +111,7 @@ body {
 .video {
     width: 300px;
     margin: 20px;
-    background-color: rgba(63, 24, 238, 0.535);
+    background-color: rgba(189, 222, 227, 0.405);
     border: 1px solid #2f0505;
     padding: 10px;
 }
@@ -140,21 +140,28 @@ body {
 
 h1 {
    
-    font-family: system-ui;
-    font-size: 3rem;
+    font-family: Arial, sans-serif;  
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #333; 
     text-align: center;
-    -webtkit-text-fill-color:
-transparent;
-  -webkit-text-fill-color: rgb(28, 19, 7);
+    color: white; 
+    background-color: rgba(30, 63, 109, 0.669);
+    padding: 10px;
+    
+}
   
         
-}
+
 
 
 label {
     display: block;
     margin-top: 10px;
-    font-size: 3rem
+    font-size: 3rem;
+    background-color: rgba(26, 100, 93, 0.5);
+    padding: 10px;
+    
     
 }
 
@@ -172,8 +179,12 @@ input[type="submit"] {
     width: 100%;
     padding: 10px;
     background-color: #007bff;
-    color: #fff;
+    color: #e5c3c3;
     border: none;
     border-radius: 3px;
     cursor: pointer;
+}
+
+form{
+    text-align: center;
 }
